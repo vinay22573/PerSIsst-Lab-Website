@@ -152,7 +152,7 @@ mkdir persisst  # Create directory if needed
 
 4. Get and deploy new version:
 ```bash
-wget https://github.com/kintsugi-programmer/PerSIsst-Lab/archive/refs/heads/main.zip
+wget wget https://github.com/vinay22573/PerSIsst-Lab-Website/archive/refs/heads/main.zip
 unzip main.zip
 cd PerSIsst-Lab-main/v6
 npm install
