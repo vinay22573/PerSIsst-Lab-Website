@@ -19,7 +19,7 @@ Our work spans a variety of domains, from smart entertainment to education, alwa
 git clone https://github.com/vinay22573/PerSIsst-Lab-Website.git
 
 # Navigate to latest version
-cd PerSIsst-Lab/v5
+cd PerSIsst-Lab/v6
 
 # Install dependencies
 npm install
@@ -68,7 +68,7 @@ root/
 ```
 
 ### Key Files
-- Latest version (v5) is inside root dir
+- Latest version (v6) is inside root dir
 - Archive dir contains old versions
 - Config files: Don't modify unless you understand their purpose
 - Never delete code portions - comment them instead
@@ -226,7 +226,7 @@ For technical issues or access requests:
 
 ---
 
-Note: This is not the original repository for the main website link where we have contributed kindly check [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab).
+Note: This is not the original repository, for the main website link where we have contributed kindly check [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab).
  
 Last Updated: January 2025
 Maintained by: PerSIsst Lab, IIIT Delhi
