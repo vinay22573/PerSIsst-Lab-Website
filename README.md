@@ -16,7 +16,7 @@ Our work spans a variety of domains, from smart entertainment to education, alwa
 ### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/kintsugi-programmer/PerSIsst-Lab.git
+git clone https://github.com/vinay22573/PerSIsst-Lab-Website.git
 
 # Navigate to latest version
 cd PerSIsst-Lab/v5
@@ -127,7 +127,7 @@ npm run export
 ```bash
 sudo openfortivpn vpn.iiitd.edu.in:10443 --username=username
 # Example:
-sudo openfortivpn vpn.iiitd.edu.in:10443 --username=siddhant22496
+sudo openfortivpn vpn.iiitd.edu.in:10443 --username=vinay22573
 ```
 
 ### SSH Access
@@ -135,7 +135,7 @@ sudo openfortivpn vpn.iiitd.edu.in:10443 --username=siddhant22496
 ```bash
 ssh username@iiitd.edu.in@ip_address
 # Example:
-ssh siddhant22496@iiitd.edu.in@192.168.3.70
+ssh vinay22573@iiitd.edu.in@192.168.3.70
 ```
 
 ### Deployment Steps
@@ -154,7 +154,7 @@ mkdir persisst  # Create directory if needed
 ```bash
 wget https://github.com/kintsugi-programmer/PerSIsst-Lab/archive/refs/heads/main.zip
 unzip main.zip
-cd PerSIsst-Lab-main/v5
+cd PerSIsst-Lab-main/v6
 npm install
 npm run build
 npm run export
@@ -219,12 +219,12 @@ For technical issues or access requests:
 2. IT Support: IT-Team@IIITD
 3. Web Administration
 ## 🔄 Version Control
-- Main repository: [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab)
-- Version: v5 (Latest)
+- Main repository: [PerSIsst-Lab](https://github.com/vinay22573/PerSIsst-Lab-Website.git)
+- Version: v6 (Latest)
 - Archive: Contains previous versions for reference
 
 ** Note: This is not the original website for the main repo link where we have contributed kindly check [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab) **
 ---
-Last Updated: October 2024
+Last Updated: January 2025
 Maintained by: PerSIsst Lab, IIIT Delhi
 
