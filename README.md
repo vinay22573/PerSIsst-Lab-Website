@@ -206,9 +206,9 @@ cp -r out/* /var/www/html/persisst/
 2. SSH access problems: Check username and IP
 3. File permission issues: Work within user permissions
 
-## 👥 Team & Credits
-- Webmaster & Backend Developer (2024): [Siddhant Bali](https://github.com/kintsugi-programmer) 
+## 👥 Team & Credits 
 - Frontend Developer: [Vinay Kumar Dubey](https://github.com/vinay22573/)
+- Backend Developer (2024): [Siddhant Bali](https://github.com/kintsugi-programmer)
 - Frontend Designer: [Daksh Tongaria](https://www.behance.net/dakshtongaria)
 - Lab Director: Dr. Pragma Kar
 - IT Support: IT-Team@IIITD
@@ -218,12 +218,12 @@ For technical issues or access requests:
 1. Lab Administration
 2. IT Support: IT-Team@IIITD
 3. Web Administration
-
 ## 🔄 Version Control
 - Main repository: [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab)
 - Version: v5 (Latest)
 - Archive: Contains previous versions for reference
 
+** Note: This is not the original website for the main repo link where we have contributed kindly check [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab) **
 ---
 Last Updated: October 2024
 Maintained by: PerSIsst Lab, IIIT Delhi
