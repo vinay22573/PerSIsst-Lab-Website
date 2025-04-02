@@ -223,8 +223,11 @@ For technical issues or access requests:
 - Version: v6 (Latest)
 - Archive: Contains previous versions for reference
 
-** Note: This is not the original website for the main repo link where we have contributed kindly check [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab) **
+
 ---
+
+Note: This is not the original repository for the main website link where we have contributed kindly check [PerSIsst-Lab](https://github.com/kintsugi-programmer/PerSIsst-Lab).
+ 
 Last Updated: January 2025
 Maintained by: PerSIsst Lab, IIIT Delhi
 
