@@ -1,0 +1,14 @@
+/* Default size for larger screens (e.g., desktops) */
+.logo {
+    width: 200px;
+    height: 60px;
+  }
+  
+  /* Media query for phones and tablets */
+  @media (max-width: 768px) {
+    .logo {
+      width: 100px;
+      height: 30px;
+    }
+  }
+  

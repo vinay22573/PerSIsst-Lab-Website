@@ -1,0 +1,46 @@
+/* cards.css */
+
+/* Generic card style with background */
+.bg-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  position: relative;
+  padding: 20px;
+}
+
+/* Specific class to apply the overlay */
+.bg-container-overlay {
+  background-color: rgba(46, 21, 21, 0.75); /* Semi-transparent overlay */
+  position: relative;
+  z-index: 5;
+}
+
+.card-header {
+  color: white;
+  background: linear-gradient(to right, #6a1b9a, #9c27b0);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-button {
+  color: white;
+  background-color: #9c27b0;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-footer {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 0;
+}

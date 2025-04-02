@@ -1,0 +1,30 @@
+.bg-container {
+    
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Avoids image repetition */
+    position: relative; /* Enables positioning for the pseudo-element */
+    border-radius: 25px; /* Matches the container's border radius */
+    position: relative;
+    top: 150px;
+    left: 142px;
+            
+}
+
+.bg-container::before {
+    content: ""; /* Creates the pseudo-element */
+    position: absolute; /* Stretches over the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 97, 97, 0.75); /* Black overlay with 50% opacity */
+    border-radius: inherit; /* Matches the container's border radius */
+    z-index: 1; /* Sits behind the content but above the background image */
+    
+}
+
+.bg-container > * {
+    position: relative; /* Ensures the content is above the overlay */
+    z-index: 2; /* Places content above the pseudo-element */
+}

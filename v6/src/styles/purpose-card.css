@@ -1,0 +1,103 @@
+.iconcard {
+    --card-background: rgb(206, 83, 255);
+    --hover-overlay: rgba(237, 237, 237, 0.4);
+    --title-color: rgb(174, 0, 255);
+    --text-color: #ffffff;
+    --hover-end-color: #c300ff8e; 
+  }
+  
+  .iconcard * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .iconcard .icontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .iconcard .icard {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    background: linear-gradient(
+        to bottom,
+        rgba(151, 71, 255, 0.12) 0%,     /* 12% opacity at top */
+        rgba(151, 71, 255, 0.04) 50%,    /* 4% opacity at center */
+        rgba(151, 71, 255, 0.07) 100%    /* 7% opacity at bottom */
+    );
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconcard .icard::before {
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, var(--hover-end-color) 0%, transparent, transparent 100%);
+    width: 600px; /* Adjust size of the gradient circle */
+    height: 600px; /* Keep it square to maintain circular shape */
+    opacity: 0; /* Start invisible */
+    transition: opacity 0.5s, top 0s, left 0s;
+  }
+  
+  .iconcard .icard:hover::before {
+    opacity: 1; /* Make it visible on hover */
+  }
+  
+  .iconcard .icard:hover::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border-radius: 20px;
+    background: linear-gradient(
+        to bottom,
+        rgba(151, 71, 255, 0.12) 0%,     /* 12% opacity at top */
+        rgba(151, 71, 255, 0.04) 50%,    /* 4% opacity at center */
+        rgba(151, 71, 255, 0.07) 100%    /* 7% opacity at bottom */
+    );
+  }
+  
+  .iconcard .icontent {
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+    z-index: 10;
+  }
+  
+  .iconcard .iicon {
+    width: 5rem;
+    height: 5rem;
+   
+  
+  }
+  
+  .iconcard .ititle {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--title-color);
+  }
+  
+  .iconcard .idescription {
+    margin-top: 1rem;
+    font-weight: normal;
+    color: var(--text-color);
+  }
